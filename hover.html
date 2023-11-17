@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset = "UTF-8">
+		    <meta name = "Author" content = "Leonn">
+		    <meta name = "Section" content = "Sodium">
+		    <meta name = "Keywords" content = "Q2-FA1">
+		    <meta name = "revised" content = "11/17/23">
+        <style>
+        a {
+            text-decoration: none;
+            color: darkred;
+        }
+        a:visited {
+            color: blue;
+            background-color: lightgray;
+        }
+        a:hover {
+            color: red;
+            background-color: yellow;
+        }
+        a:active {
+            color: green;
+            background-color: white;
+        }
+        #div1 {
+            background-color: darkred;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+			
+        }
+        #div2 {
+            background-color: darkblue;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+			
+        }
+         </style>
+    <script>
+        function changeColor1() {
+            document.getElementById("div1").style.backgroundColor = "yellow";
+            document.getElementById("div1").style.color = "white";
+        }
+        function changeBorder2() {
+            document.getElementById("div2").style.border = "10px dotted green";
+        }
+    </script>
+    </head>
+<body>
+    <a href="#" onclick="changeColor1()">Click me</a><br>
+    <div id="div1">First Div</div><br>
+    <a href="#" onclick="changeBorder2()">Click me</a><br>
+    <div id="div2">Second Div</div>
+</body>
+</html>
